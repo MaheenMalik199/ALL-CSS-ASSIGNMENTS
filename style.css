@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    background-color: #d2ece4;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  color: #00796b;
+  }
+  
+  .simple-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #4caf50;
+  }
+  
+  .simple-link:hover {
+    background-color: #1976d2;
+  }
+  

@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.parent{
+    height: 100vh;
+    max-width: 100vw;
+}
+.child1{
+    height: 100vh;
+    width: 20%;
+    background-color: #b5522b;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    
+}
+.child2{
+    height: 100vh;
+    width: 79%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    overflow: auto;
+    
+}
+
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 8px solid #db917a; 
+    margin-top: 190px;
+}
+.child1 a {
+    display: block;
+    color: rgb(207, 185, 185);
+    text-decoration: none;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.child1 a:hover {
+color: white;
+font-size: 18px;
+}
+/* section1 */
+.section1{
+  margin-top: 230px;
+  margin-left: 50px;
+}
+.link1{
+  font-size: 130px;
+  font-family: "Bebas Neue", sans-serif; 
+}
+.section1p2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  color: rgb(102, 99, 99);
+  
+}
+.section1email{
+  color: #b5522b;
+}
+
+.section1email:hover{
+ font-size: 35px;
+ color: black;
+}
+.section1p3{
+  font-family: 'Lato', sans-serif;
+  color: rgb(92, 83, 83);
+  font-size: 20px;
+}
+.section1icon{
+  display: flex;
+  margin-top: 50px; 
+  gap: 20px;
+}
+.icon {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: rgb(68, 64, 64);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.section1icon a{
+  text-decoration: none;
+}
+.icon:hover {
+  background-color:#b5522b;
+}
+.icon:hover .iconSize {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.hr1{
+  margin-top: 150px;
+} 
+
+/* section2 */
+ 
+.experience-section {
+  font-family: 'Lato', sans-serif;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.section2-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #2f2f2f;
+}
+
+.experience-item {
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.job-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
+  text-transform: uppercase;
+  margin: 0;
+
+
+}
+
+.job-date {
+  font-size: 14px;
+  color: #cc5c33;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 5px 0 10px;
+  color: #645b5b;
+}
+
+.job-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+.hr2{
+  margin-top: 150px;
+}
+/* section3 */
+
+.education-section {
+  font-family: 'Oswald', sans-serif;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+  margin-left: 50px;
+}
+
+.section3-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #2f2f2f;
+}
+
+.education-item {
+  margin-bottom: 40px;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.edu-school {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.edu-date {
+  font-size: 14px;
+  color: #cc5c33;
+}
+
+.edu-degree {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #7a7575;
+  margin: 5px 0;
+}
+
+.edu-details,
+.edu-gpa {
+  font-size: 17px;
+  color: #4a4a4a;
+  margin: 2px 0;
+}
+.hr3{
+  margin-top: 190px;
+}
+
+
+/* section4 */
+
+.skills-section {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.section4-heading{
+  font-family: 'Oswald', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 150px;
+  
+}
+.subheading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  font-size: 50px;
+  color: rgb(87, 82, 82);
+}
+.skills-icons img {
+  height: 50px;
+  width: auto;
+}
+.workflow-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.workflow-list li {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
+}
+.hr4{
+  margin-top: 190px;
+}
+
+/* section5 */
+
+.interests-section {
+  font-family: 'Oswald', sans-serif;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #4a4a4a;
+  margin-top: 180px;
+  margin-left: 50px;
+  font-weight: bold;
+  
+}
+.interests-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.section-heading{
+  font-size: 55px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.hr5{
+  margin-top: 190px;
+}
+/* section6 */
+
+.awards-section {
+  font-family: 'Oswald', sans-serif;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #4a4a4a;
+  margin-top: 190px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.awards-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 60px;
+}
+
+.awards-list li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.awards-list i {
+  color: #f1c40f;
+  margin-right: 8px;
+}
+
+
