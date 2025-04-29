@@ -8,6 +8,7 @@
 .parent{
     height: 100vh;
     max-width: 100vw;
+    
 }
 .child1{
     height: 100vh;
@@ -16,6 +17,7 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    
     
 }
 .child2{
@@ -33,13 +35,17 @@
     border-radius: 50%;
     margin-bottom: 20px;
     border: 8px solid #db917a; 
-    margin-top: 190px;
+    margin-top: 130px;
+}
+.profile-photo:hover{
+  width: 170px;
+  height: 170px;
 }
 .child1 a {
     display: block;
     color: rgb(207, 185, 185);
     text-decoration: none;
-    margin: 25px;
+    margin:  25px;
     font-weight: bold;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
