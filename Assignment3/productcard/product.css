@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: #ffe9e9;
+  position: relative;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: rgb(179, 174, 170);
+}
+.card{
+  width: 750px;
+  height: 550px;
+  background: #e6e0e0;
+  border-radius: 19px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50px;
+  left: 295px;
+}
+.image-section{
+  width: 310px;
+  height: 58vh;
+  background: #8b1e23;
+  position: absolute;
+  top: 50px;
+  right: 520px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.top-icons {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+}
+.main-image {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 350px;
+  height: 370px;
+}
+
+.thumbnails {
+  position: absolute;
+  width: 310px;
+  height: 13vh;
+  text-align: center;
+  background-color: white;
+  top: 420px;
+  right: 520px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+display: flex;
+justify-content: center;
+gap: 10px;
+padding-top: 10px;
+}
+.thumbnails-pic{
+  background-color: rgb(227, 231, 231);
+  height: 60px;
+  width: 60px;
+  padding-top: 5px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px gray;
+}
+.thumbnails-pic img{
+  height: 50px;
+  width: 50px;
+}
+/* info-section */
+
+.info-section {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  height: 100%;
+  padding: 40px;
+}
+.info-section h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.info-section .code {
+  color: #666464;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.info-section .price {
+  font-size: 38px;
+  color: #8b1e23;
+  margin-bottom: 15px;
+}
+
+.info-section .colors-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.colors{
+  display: flex;
+text-align: center;
+gap: 20px;
+padding-top: 40px;
+}
+.small-apple{
+  background-color: rgb(227, 231, 231);
+  height: 60px;
+  width: 60px;
+  padding-top: 5px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px gray;
+}
+
+.small-apple img{
+  height: 50px;
+  width: 50px;
+}
+.benefits{
+  color: #535151;
+  font-size: 15px;
+  
+
+}
+.info-section ul {
+  font-size: 14px;
+  margin-top: 25px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.info-section button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: #8b1e23;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
