@@ -1,0 +1,53 @@
+.navbar-brand{
+color: aliceblue!important;
+}
+
+.top-bar {
+      background-color: #f8b75d;
+      color: white;
+      font-size: 14px;
+    }
+    .top-bar i {
+      margin-right: 5px;
+    }
+    .navbar {
+      background-color: white;
+    }
+    .logo-text {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    .carousel-caption {
+      background: rgba(0,0,0,0.5);
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .btn-custom {
+      background-color: #f8b75d;
+      color: white;
+      border: none;
+      margin: 5px;
+    }
+    .btn-custom:hover {
+      background-color: #e89c34;
+    }
+
+    /* card */
+
+    /* cards section */
+.overlap-cards {
+  margin-top: -100px; 
+  margin-bottom: 50px;
+  z-index: 10;
+  position: relative;
+}
+
+.overlap-cards .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.overlap-cards .card:hover {
+  transform: translateY(-5px);
+}

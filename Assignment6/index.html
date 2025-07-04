@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitify</title>
+
+    <!-- fontawesom -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Z7v0QpjRGoK0HjCW0P6LQO4xJKoqRddC+ZWhu7byUOiUQcsA7h2RyfHWBqEBS8jOqrdUgUezc5QOABo3ESjbJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+    <!-- custom CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+<!-- NAV -->
+
+<nav class="navbar bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">envantoMarket</a>
+    
+    <button type="button" class="btn btn-success">Success</button>
+  </div>
+</nav>
+
+
+    <!-- Top bar -->
+  <div class="top-bar py-2">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <i class="fas fa-envelope"></i> Info@YourDomain.com
+        <i class="fas fa-phone ms-3"></i> + (333) 052 39876
+      </div>
+      <div>
+        <i class="fab fa-facebook-f me-2"></i>
+        <i class="fab fa-twitter me-2"></i>
+        <i class="fab fa-instagram me-2"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span class="logo-text text-dark">Charitify</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Causes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Event</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <a class="btn btn-custom ms-lg-3" href="#">Donate Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider Section -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="asset/image/carousel1.jpeg" class="d-block w-100" alt="Slide 1" style="height: 80vh; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <small>Join Us Today</small>
+          <h1 class="display-5 fw-bold">Better Life for People</h1>
+          <p>Help today because tomorrow you may be the one who needs helping!<br>Forget what you can get and see what you can give.</p>
+          <a href="#" class="btn btn-custom">Join With Us</a>
+          <a href="#" class="btn btn-custom">Donate Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="asset/image/carousel2.jpeg" class="d-block w-100" alt="Slide 2" style="height: 90vh; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h1 class="display-5 fw-bold">Together we<br>can make a Difference</h1>
+          <p>Help today because tomorrow you may be the one who needs helping!<br>Forget what you can get and see what you can give.</p>
+          <a href="#" class="btn btn-custom">Join With Us</a>
+          <a href="#" class="btn btn-custom">Donate Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="asset/image/cr-1.jpeg" class="d-block w-100" alt="Slide 3" style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <small>Join Us Today</small>
+          <h1 class="display-5 fw-bold">Give a little. Change a lot.</h1>
+          <p>Help today because tomorrow you may be the one who needs helping!<br>Forget what you can get and see what you can give.</p>
+          <a href="#" class="btn btn-custom">Join With Us</a>
+          <a href="#" class="btn btn-custom">Donate Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+<!-- card -->
+
+<!-- Cards Section -->
+<section class="overlap-cards">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow text-center p-4 h-100">
+          <div class="card-icon mb-3">
+            <i class="fas fa-hand-holding-heart fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-bold">Make Donetion</h5>
+          <p class="small">Help today because tomorrow you may be the one who needs helping!</p>
+          <a href="#" class="fw-bold small">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow text-center p-4 h-100">
+          <div class="card-icon mb-3">
+            <i class="fas fa-donate fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-bold">Fundrising</h5>
+          <p class="small">Help today because tomorrow you may be the one who needs helping!</p>
+          <a href="#" class="fw-bold small">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow text-center p-4 h-100">
+          <div class="card-icon mb-3">
+            <i class="fas fa-user-tie fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-bold">Become A Volunteer</h5>
+          <p class="small">Help today because tomorrow you may be the one who needs helping!</p>
+          <a href="#" class="fw-bold small">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- second card section -->
+
+<!-- Recent Causes Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">Recent Causes</h2>
+    <p class="text-center text-muted mb-5">
+      Help today because tomorrow you may be the one who needs more helping!
+    </p>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/carousel1.jpeg" class="card-img-top" alt="Charity 1">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">25%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">First charity activity of this summer.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/crd-2.jpeg" class="card-img-top" alt="Charity 2">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">45%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Big charity: build school for poor children.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/crd-3.jpeg" class="card-img-top" alt="Charity 3">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">75%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Building clean-water system for rural poor.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- history -->
+
+
+<section class="py-5" style="background-color: #fffdfb;">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      
+      <!-- Left Column -->
+      <div class="col-md-4 text-center">
+        <div class="p-4 border rounded h-100 shadow-sm">
+          <img src="asset/image/ceo.jpeg" alt="CEO" class="rounded-circle mb-3" width="100" height="100">
+          <h5 class="fw-bold mb-1">Jonathan Smith</h5>
+          <small class="text-muted d-block mb-3">CEO &amp; Founder of Charityify</small>
+          <p class="text-muted small">
+            The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+          </p>
+          <img src="https://via.placeholder.com/80x30?text=Signature" alt="Signature">
+        </div>
+      </div>
+
+      <!-- Center Column -->
+      <div class="col-md-4">
+        <div class="h-100">
+          <img src="asset/image/history.jpeg" alt="Our History" class="img-fluid rounded mb-3">
+          <h6 class="fw-bold">Our History</h6>
+          <p class="text-muted small">
+            The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.
+          </p>
+          <button class="btn btn-warning btn-sm">Read More</button>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-4">
+        <div class="h-100" style="background-color: #fdeedc; padding: 15px; border-radius: 8px;">
+          <img src="asset/image/carousel2.jpeg" alt="Our Mission" class="img-fluid rounded mb-3">
+          <h6 class="fw-bold">Our Mission</h6>
+          <p class="text-muted small">
+            The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.
+          </p>
+          <button class="btn btn-warning btn-sm">Read More</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- project section -->
+
+<section class="py-5 position-relative text-white" style="background: url('asset/image/video-sec.jpeg') center center/cover no-repeat;">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 col-md-12">
+        <span class="badge bg-warning text-dark mb-2">Featured Campaigns</span>
+        <h2 class="fw-bold mb-3">Featured project to built a School.</h2>
+        <p class="mb-4" style="max-width: 600px;">
+          The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+        </p>
+
+        <!-- Progress Bar -->
+        <div class="progress position-relative mb-3" style="height: 8px; background-color: rgba(255, 255, 255, 0.2);">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+          <span class="position-absolute top-50 start-50 translate-middle text-light fw-bold" style="font-size: 12px; ">35%</span>
+        </div>
+
+        <!-- Goals -->
+        <div class="d-flex justify-content-start gap-4 mb-4">
+          <div><i class="bi bi-graph-up-arrow me-1"></i> <strong>Goal:</strong> $450000</div>
+          <div><i class="bi bi-cash-coin me-1"></i> <strong>Raised:</strong> $55000</div>
+        </div>
+
+        <!-- Button -->
+        <a href="#" class="btn btn-warning text-dark px-4">Donate Now</a>
+      </div>
+
+      
+</section>
+
+<!-- second card section -->
+
+<!-- Recent Causes Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">Recent Causes</h2>
+    <p class="text-center text-muted mb-5">
+      Help today because tomorrow you may be the one who needs more helping!
+    </p>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/carousel1.jpeg" class="card-img-top" alt="Charity 1">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">25%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">First charity activity of this summer.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/crd-2.jpeg" class="card-img-top" alt="Charity 2">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">45%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Big charity: build school for poor children.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="asset/image/crd-3.jpeg" class="card-img-top" alt="Charity 3">
+            <button class="btn btn-warning btn-sm position-absolute top-0 end-0 m-2">Donate Now +</button>
+            <div class="badge bg-warning text-white position-absolute bottom-0 start-50 translate-middle-x rounded-pill px-3 py-1">75%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Building clean-water system for rural poor.</h5>
+            <p class="card-text text-muted small">
+              Help today because tomorrow you may be the one who needs more helping!
+            </p>
+            <p class="mb-1 small">
+              <i class="bi bi-bar-chart-fill text-warning"></i> Goal: <strong>$45000</strong>
+            </p>
+            <p class="small">
+              <i class="bi bi-hand-thumbs-up-fill text-warning"></i> Raised: <strong>$5000</strong>
+            </p>
+            <a href="#" class="text-decoration-none text-warning small">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Column 1: Logo and Social -->
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex align-items-center mb-3">
+          <div>
+            <h5 class="fw-bold mb-0">Charitify</h5>
+            <small>Your contribution can help a solution.</small>
+          </div>
+        </div>
+        <p class="small">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor</p>
+        <div class="mt-3">
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-pinterest"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Recent Campaigns -->
+      <div class="col-lg-4 col-md-6">
+        <h6 class="fw-bold mb-3">Recent Campaigns</h6>
+        <ul class="list-unstyled small">
+          <li class="mb-2">First charity activity of this summer. <span class="text-muted">-1 Year Ago</span></li>
+          <li class="mb-2">Big charity: build school for poor children. <span class="text-muted">-2 Year Ago</span></li>
+          <li class="mb-2">Clean-water system for rural poor. <span class="text-muted">-2 Year Ago</span></li>
+          <li class="mb-2">Nepal earthquake donation campaigns. <span class="text-muted">-3 Year Ago</span></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="col-lg-4 col-md-12">
+        <h6 class="fw-bold mb-3">Charitify Location</h6>
+        <ul class="list-unstyled small">
+          <li class="mb-2">
+            <i class="bi bi-envelope-fill text-warning me-2"></i> Info@YourDomain.com
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-telephone-fill text-warning me-2"></i> +(333) 052 39876
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-globe2 text-warning me-2"></i> www.YourWebsite.com
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-geo-alt-fill text-warning me-2"></i> 60 Grand Avenue, Central New Road 0708, USA
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-top border-secondary mt-4 pt-3 d-flex flex-column flex-md-row justify-content-between align-items-center small">
+      <div class="text-center text-md-start mb-2 mb-md-0">
+        © 2021 Charitify Powered by DynamicLayers
+      </div>
+      <div class="text-center text-md-end">
+        <a href="#" class="text-light text-decoration-none me-3">Orders</a>
+        <a href="#" class="text-light text-decoration-none me-3">Terms</a>
+        <a href="#" class="text-light text-decoration-none">Report Problem</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1030;">
+    <a href="#" class="btn btn-warning rounded-circle shadow">
+      <i class="bi bi-arrow-up text-dark"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
